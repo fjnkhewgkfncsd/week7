@@ -1,0 +1,89 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: arial;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.mid{
+    display:grid;
+    grid-template-columns:50% 50%;
+    padding:1rem;
+    gap:1rem;
+    width:100%;
+}
+.container{
+    background:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:360px;
+    padding:0 1rem;
+    border-radius: 5px;
+}
+.bottom, .Top{
+    background: whitesmoke;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:108%;
+}
+.email{
+    grid-column: 2 span;
+    width:97.5%;
+}
+label{
+    color:aquamarine
+}
+.a{
+    height:50px;
+}
+.b{
+    height:30px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+.text{
+    color:black;
+}
+input[type="text"]:focus{
+    background: lightblue;
+}
+span{
+    background: green;
+    color:white;
+    border-radius: 3px;
+}
+.adjust{
+    display: flex;
+    gap:1rem;
+}
+input:not(type="text"){
+    cursor: pointer;
+}
+input[type="range"]{
+    background-color: red;
+}
+.bottom{
+    display: flex;
+    justify-content: end;
+}
+.create{
+    margin:0 10px 0 0;
+    background: green;
+    width:70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+
